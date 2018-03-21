@@ -21,11 +21,11 @@ module.exports = function setupEquipoModel (config) {
     },
     tel: {
       type: Sequelize.STRING,
-      allowNull: false
+      allowNull: true
     },
     email: {
       type: Sequelize.STRING,
-      allowNull: false
+      allowNull: true
     },
     activo: {
       type: Sequelize.BOOLEAN,
